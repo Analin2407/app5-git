@@ -3,13 +3,13 @@
 $(document).ready(function(e){
 	document.addEventListener("deviceready",function(){
 		
-		$('#beep').tap(function(){;
-		navigator.notification.beep(1);
-	});//tap beep
+$('#beep').tap(function(){
+navigator.notification.beep(1);
+});//tap beep
 	
-	$('#vibrer').tap(function(){
-		navigator.notification.vibrate(1000);
-	});//tapvibrar
+$('#vibrar').tap(function(){
+navigator.notification.vibrate(1000);
+});//tapvibrar
 		
-	},false);//deviceready
-	});//ready
+},false);//deviceready
+});//ready
